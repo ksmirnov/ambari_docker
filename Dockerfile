@@ -1,7 +1,5 @@
 FROM centos/systemd
 
-MAINTAINER Konstantin Smirnov <konstantin.statics@gmail.com>
-
 # Installing EPEL and some essential packages
 RUN yum install -y --quiet epel-release \
  && yum -y --quiet update \
